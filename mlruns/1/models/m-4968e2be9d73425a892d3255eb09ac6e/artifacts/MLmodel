@@ -1,0 +1,22 @@
+artifact_path: /home/dzmitry/notebooks/mlruns/1/models/m-4968e2be9d73425a892d3255eb09ac6e/artifacts
+flavors:
+  python_function:
+    data: model.xgb
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.9.7
+  xgboost:
+    code: null
+    data: model.xgb
+    model_class: xgboost.core.Booster
+    model_format: xgb
+    xgb_version: 2.1.4
+mlflow_version: 3.1.4
+model_id: m-4968e2be9d73425a892d3255eb09ac6e
+model_size_bytes: 1353179
+model_uuid: m-4968e2be9d73425a892d3255eb09ac6e
+prompts: null
+run_id: cc9ac7ab12404154bb75f2b3f789cae7
+utc_time_created: '2025-09-29 14:19:07.044876'
